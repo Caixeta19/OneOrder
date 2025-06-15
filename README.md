@@ -43,18 +43,14 @@ Página que exibe todas as ordens cadastradas em uma tabela com as seguintes col
 - ✏️ Botão de **Editar** e **Excluir**
 
   #📚 Tecnologias Utilizadas
-HTML5
-
-PHP
-
-MySQL
-
-Bootstrap 5
-
-XAMPP (Apache + MySQL)
+- HTML5
+- PHP
+- MySQL
+- Bootstrap 5
+- XAMPP (Apache + MySQL)
 
 
-👨‍🎓 Autor
+###👨‍🎓 Autor
 Guilherme Caixeta
 
 
