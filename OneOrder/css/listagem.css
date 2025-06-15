@@ -1,0 +1,162 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin: 50px auto;
+  position: relative;
+  z-index: 2;
+}
+.background-image {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  width: 300px;       
+  height: auto;     
+  background-image: url('/visualEvidency/OneOrder.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.7;
+  z-index: 0;
+  pointer-events: none;  
+}
+.logo-right {
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.95;
+}
+
+.logo-right img {
+  width: 180px;
+  height: auto;
+}
+h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #06b81e;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  font-weight: 600;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 12px;
+  background: linear-gradient(to right, #e69011, #df8014);
+  border: none;
+  color: white;
+  box-shadow: 0 4px 14px rgba(255, 166, 2, 0.747);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #d48011, #e4980d);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.5);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.btn-warning,
+.btn-danger {
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning {
+  background-color: #facc15;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #eab308;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+.table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.table td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 20px;
+    margin: 30px 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn,
+  .btn-warning,
+  .btn-danger,
+  .btn-primary {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .table {
+    font-size: 0.9rem;
+  }
+
+  .background-image {
+    display: none;
+  }
+}
