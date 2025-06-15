@@ -1,0 +1,8 @@
+CREATE TABLE ordens (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `cliente` VARCHAR(100) NOT NULL,
+  `descricao` TEXT NOT NULL,
+  `data_abertura` DATE NOT NULL,
+  `prioridade` VARCHAR(20) NULL DEFAULT NULL,
+  `situacao` VARCHAR(30) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`))
