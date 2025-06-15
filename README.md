@@ -49,9 +49,8 @@ Página que exibe todas as ordens cadastradas em uma tabela com as seguintes col
 - Bootstrap 5
 - XAMPP (Apache + MySQL)
 
-
-###👨‍🎓 Autor
-Guilherme Caixeta
+### 👨‍🎓 Autor  
+**Guilherme Caixeta**  
 
 
 
