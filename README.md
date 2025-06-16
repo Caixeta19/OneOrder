@@ -1,6 +1,6 @@
 # 💼 OneOrder — Sistema de Ordens de Serviço
 
-Projeto desenvolvido com o objetivo de aplicar conhecimentos práticos em **HTML**, **PHP**, **formulários**, **conexão com banco de dados (MySQL)** e **Bootstrap**, criando uma aplicação web simples para **gerenciamento de ordens de serviço**.
+Projeto acadêmico desenvolvido com o objetivo de aplicar conhecimentos práticos em **HTML**, **PHP**, **formulários**, **conexão com banco de dados (MySQL)** e **Bootstrap**, criando uma aplicação web simples para **gerenciamento de ordens de serviço**.
 
 ---
 
